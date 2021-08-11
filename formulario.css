@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Barlow Semi Condensed', sans-serif;
+}
+
+body{
+    background-color: #eee;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+
+.container{
+    max-width: 1024px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-radius: 8px;
+    box-shadow: white;
+    overflow: hidden;
+}
+.box{
+    position:relative;
+    width: 100%;
+}
+
+.upper h1{
+    padding: 1rem 0 0 1.3rem;
+}
+
+
+form{
+    width: 100%;
+    height: 100%;
+    padding-top: 1.6rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+form .button{
+    height: 30px;
+    margin:50px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color:black;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+    text-transform:none;
+    transition: 0.5s;
+
+
+
+
+}
+form .button input:hover{
+background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+    
+
+    
+}
+
+.input{
+position:static;
+}
+.input input{
+    width: 260px;
+    height: 45px;
+    outline: none;
+    padding: 0 .7rem;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    transition: 0.2s;
+    align-items: center;
+
+}
